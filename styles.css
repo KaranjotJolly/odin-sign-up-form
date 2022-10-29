@@ -1,0 +1,225 @@
+@import url(//db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    font-family: "Roboto";
+}
+
+.left-section {
+    height: 100vh;
+    width: 440px;
+}
+
+.left-section-img {
+    height: 100vh;
+    width: 440px;
+}
+
+.transparent-background {
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    bottom: 490px;
+    opacity: 0.6;
+}
+
+.branding {
+    display: flex;
+    position: relative;
+    bottom: 600px;
+    width: 440px;
+    height: 120px;
+}
+
+.odin-logo {
+    height: 120px;
+    width: 95px;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+}
+
+.odin-text {
+    font-family: "Norse";
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 190px;
+    top: 10px;
+}
+
+.credits {
+    color: white;
+    position: absolute;
+    top: 73vh;
+    left: 90px;
+}
+
+/* RIGHT SECTION */
+
+.right-section {
+    background-color: rgb(226, 226, 226);
+    height: 100vh;
+    width: 100vw;
+}
+
+.right-section-top {
+    height: 253px;
+    width: 100%;
+}
+
+.headings {
+    position: relative;
+    left: 30px;
+    font-weight: 900;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.heading-1 {
+    position: relative;
+    top: 95px;
+    line-height: 23px;
+}
+
+.heading-2 {
+    position: relative;
+    top: 115px;
+}
+
+.right-section-middle {
+    background-color: white;
+    height: 210px;
+    width: 100vw;
+    position: relative;
+}
+
+.sign-up-heading {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 16px;
+    padding-left: 30px;
+    margin-bottom: 2px;
+}
+
+.right-section-bottom {
+    height: calc(100vh - (220px + 233px));
+    width: 100vw;
+}
+
+.create-account-btn {
+    width: 180px;
+    height: 40px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: 700
+}
+
+.create-account-btn:hover {
+    cursor: pointer;
+}
+
+.create-account-btn:disabled {
+    opacity: 0.6;
+}
+
+.login-text {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login-link {
+    color: #596D48;
+    text-decoration: none;
+}
+
+.inputs-container {
+    display: flex;
+}
+
+.input-column-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column; 
+}
+
+.label {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: darkslategray;
+}
+
+.input-column-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.input {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1.5px solid #E5E7EB;
+}
+
+.confirm-password-input {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 2px solid #E5E7EB;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.confirm-password-input:focus {
+    outline: none;
+}
+
+.input:focus:valid {
+    border: 2px solid #728CD5;
+}
+
+.input:valid {
+    border: 2px solid #E5E7EB
+}
+
+.input:focus:invalid {
+    border: 2px solid red;
+}
+
+.error {
+    border: 2px solid red;
+}
